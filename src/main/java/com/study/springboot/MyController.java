@@ -16,4 +16,9 @@ public class MyController {
     public String test1() {
         return "test1";          // 실제 호출 될 /WEB-INF/views/test1.jsp       
     }
+
+    @RequestMapping("/test2")
+    public @ResponseBody String test2() {
+        return "test2";       
+    }
 }
