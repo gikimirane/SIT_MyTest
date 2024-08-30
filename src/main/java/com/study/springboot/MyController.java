@@ -21,4 +21,10 @@ public class MyController {
     public String test2() {
         return "test2";       
     }
+    
+    @RequestMapping("/gikimirane")
+    public @ResponseBody String gikimiTest() {
+        return "내 페이지";       
+    }
+    
 }
