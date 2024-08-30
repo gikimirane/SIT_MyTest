@@ -31,4 +31,9 @@ public class MyController {
     public String test4() {
         return "test4";       
     }
+
+    @RequestMapping("/test5")
+    public @ResponseBody String test5() {
+        return "test5";       
+    }
 }
