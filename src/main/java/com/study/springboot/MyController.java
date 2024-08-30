@@ -26,4 +26,13 @@ public class MyController {
     public @ResponseBody String dailyTest() {
         return "daily 페이지";       
     }
+    
+    @RequestMapping("/woogyuhwan")
+    public @ResponseBody String woogyuhwan() {
+    	
+    	return "1958년생, 때를 만나 움직이니 서둘러 성공하리라.\r\n"
+    			+ "1970년생, 처음에는 가망 없어 보이나 시간이 흐를수록 이루어진다.\r\n"
+    			+ "1982년생, 다툼을 하려거든 내일로 미루어라. 이길 수 있다.\r\n"
+    			+ "1994년생, 모든 일을 쉽게 이루니 기쁨이 가득하다.";       
+    }
 }
