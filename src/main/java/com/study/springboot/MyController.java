@@ -21,4 +21,9 @@ public class MyController {
     public String test2() {
         return "test2";       
     }
+
+    @RequestMapping("/daily")
+    public @ResponseBody String dailyTest() {
+        return "daily 페이지";       
+    }
 }
