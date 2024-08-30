@@ -27,6 +27,11 @@ public class MyController {
         return "daily 페이지";       
     }
     
+    @RequestMapping("/gikimirane")
+    public @ResponseBody String gikimiTest() {
+        return "내 페이지";       
+    }
+    
     @RequestMapping("/woogyuhwan")
     public @ResponseBody String woogyuhwan() {
     	
@@ -35,4 +40,5 @@ public class MyController {
     			+ "1982년생, 다툼을 하려거든 내일로 미루어라. 이길 수 있다.\r\n"
     			+ "1994년생, 모든 일을 쉽게 이루니 기쁨이 가득하다.";       
     }
+
 }
